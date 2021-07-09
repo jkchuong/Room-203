@@ -13,7 +13,7 @@ namespace UI
         [Header("Inventory Slots")]
         [SerializeField] private InventorySlots inventorySlots;
         
-        private List<ItemScriptable> itemList = new List<ItemScriptable>();
+        private readonly List<ItemScriptable> itemList = new List<ItemScriptable>();
         private bool isShown;
 
         public static InventoryUI Instance;

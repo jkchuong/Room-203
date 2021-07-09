@@ -7,8 +7,8 @@ namespace UI
 {
     public class InventorySlots : MonoBehaviour
     {
-        private List<InventoryButton> buttonList = new List<InventoryButton>();
-        private List<Image> imageList = new List<Image>();
+        private readonly List<InventoryButton> buttonList = new List<InventoryButton>();
+        private readonly List<Image> imageList = new List<Image>();
 
         private void Start()
         {

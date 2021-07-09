@@ -953,11 +953,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2122208759}
-    - target: {fileID: 7724133617580240638, guid: 53bd3f399b606a747aaa9c9b0863d560,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OpenInventory
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53bd3f399b606a747aaa9c9b0863d560, type: 3}
 --- !u!1 &2008695711
@@ -1227,6 +1222,16 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3006478988531184251, guid: 5cb9416aefc9ca04b8abd5bfeb543e3e,
+        type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3006478988736799986, guid: 5cb9416aefc9ca04b8abd5bfeb543e3e,
+        type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3006478988736799989, guid: 5cb9416aefc9ca04b8abd5bfeb543e3e,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1426,6 +1431,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3006478989951306697, guid: 5cb9416aefc9ca04b8abd5bfeb543e3e,
+        type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3006478990203294346, guid: 5cb9416aefc9ca04b8abd5bfeb543e3e,
+        type: 3}
+      propertyPath: m_Interactable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3006478990203294349, guid: 5cb9416aefc9ca04b8abd5bfeb543e3e,
         type: 3}
