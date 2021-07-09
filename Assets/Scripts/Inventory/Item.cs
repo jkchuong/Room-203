@@ -9,13 +9,11 @@ namespace Inventory
 
         private DialogueBox dialogueBox;
         private Collider2D collider2d;
-        private InventoryUI inventoryUI;
         private ParticleSystem particles;
 
         private void Awake()
         {
             dialogueBox = FindObjectOfType<DialogueBox>();
-            inventoryUI = FindObjectOfType<InventoryUI>();
 
             particles = GetComponent<ParticleSystem>();
             collider2d = GetComponent<Collider2D>();
@@ -23,7 +21,7 @@ namespace Inventory
 
         public void Interact()
         {
-            inventoryUI.AddItem(itemScriptable);
+            InventoryUI.Instance.AddItem(itemScriptable);
             collider2d.enabled = false;
             particles.Stop();
             StartCoroutine(dialogueBox.ShowPickupText(itemScriptable));

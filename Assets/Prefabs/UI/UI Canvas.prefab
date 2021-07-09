@@ -368,7 +368,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 649861345213784532, guid: 48854b09e7db0fe479375d8d16fb4447,
+          type: 3}
         m_MethodName: OpenInventory
         m_Mode: 1
         m_Arguments:
