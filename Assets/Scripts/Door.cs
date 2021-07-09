@@ -7,7 +7,7 @@ public class Door : MonoBehaviour, IInteractable
 {
     [SerializeField] private CanvasGroup doorCanvas;
     
-    private const string CORRIDOR_SCENE = "p_Corridor";
+    private const string CORRIDOR_SCENE = "Corridor";
 
     public void Interact()
     {

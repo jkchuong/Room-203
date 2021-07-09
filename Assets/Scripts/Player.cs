@@ -8,7 +8,6 @@ public class Player : MonoBehaviour
     
     // Components
     private Rigidbody2D rigidbody2d;
-    private InventoryUI inventoryUI;
     
     // Cache    
     private float horizontal;
@@ -23,7 +22,6 @@ public class Player : MonoBehaviour
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
 
-        inventoryUI = FindObjectOfType<InventoryUI>();
 
         // animator = GetComponent<Animator>();
         // audioSource = GetComponent<AudioSource>();
@@ -42,10 +40,7 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            if (inventoryUI)
-            {
-                inventoryUI.SetUI();
-            }
+            InventoryUI.Instance.SetUI();
         }
     }
 

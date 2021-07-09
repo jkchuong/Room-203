@@ -6,9 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Prototype/p_Corridor.unity
+    path: Assets/Scenes/_preload.unity
+    guid: 048fdfab7f1d9984fbafd2fb1c76e372
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 746ce026a3fc25041bd27c03771e056b
+  - enabled: 1
+    path: Assets/Scenes/Corridor.unity
     guid: dd01a24d0aaa1304db16d283be2a20d5
   - enabled: 1
-    path: Assets/Prototype/p_Room.unity
+    path: Assets/Scenes/Room Early.unity
     guid: 1501417a19d68ba48be68733d7d00a16
+  - enabled: 1
+    path: Assets/Scenes/Room Late.unity
+    guid: 205be0f4b6304db48a33311fafb1a8fe
+  - enabled: 1
+    path: Assets/Scenes/Room Mid.unity
+    guid: 8b89754b0ae9e154080b82f329d19f64
+  - enabled: 1
+    path: Assets/Scenes/Room MidEarly.unity
+    guid: a21b5511b79ac904aa0ec871c3889541
+  - enabled: 1
+    path: Assets/Scenes/Room MidLate.unity
+    guid: 7483deb52de0c6549b002d7c0a56a1d8
   m_configObjects: {}

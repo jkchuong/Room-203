@@ -113,7 +113,7 @@ GameObject:
   - component: {fileID: 7724133617570672873}
   - component: {fileID: 7724133617570672878}
   m_Layer: 5
-  m_Name: Pickup Dialogue
+  m_Name: Dialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

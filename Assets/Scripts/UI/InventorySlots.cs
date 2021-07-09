@@ -10,13 +10,6 @@ namespace UI
         private List<InventoryButton> buttonList = new List<InventoryButton>();
         private List<Image> imageList = new List<Image>();
 
-        private InventoryUI inventoryUI;
-
-        private void Awake()
-        {
-            inventoryUI = FindObjectOfType<InventoryUI>();
-        }
-
         private void Start()
         {
             foreach (Transform child in transform)

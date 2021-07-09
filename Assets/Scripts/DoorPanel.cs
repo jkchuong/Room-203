@@ -21,6 +21,6 @@ public class DoorPanel : MonoBehaviour
 
     private static void LoadScene(string scene)
     {
-        SceneLoader.Instance.FadeSceneLoad(scene);
+        SceneLoader.Instance.FadeSceneLoad("Room " + scene);
     }
 }
