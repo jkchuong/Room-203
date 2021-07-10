@@ -1,6 +1,5 @@
 ﻿using UI;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace Managers
 {

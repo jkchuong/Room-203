@@ -416,7 +416,7 @@ PrefabInstance:
         type: 3}
       propertyPath: itemScriptable
       value: 
-      objectReference: {fileID: 11400000, guid: 1260c013497b68f4a81831d200736d73,
+      objectReference: {fileID: 11400000, guid: c99c91dd3f50f554c8261fa88b72ed9d,
         type: 2}
     - target: {fileID: 3138441790804738521, guid: 0575cfaae48e56e47ab554aed99961e6,
         type: 3}
@@ -486,7 +486,7 @@ PrefabInstance:
     - target: {fileID: 9144718339024574233, guid: 0575cfaae48e56e47ab554aed99961e6,
         type: 3}
       propertyPath: m_Name
-      value: Lightbulb
+      value: Newspaper
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0575cfaae48e56e47ab554aed99961e6, type: 3}
@@ -868,7 +868,7 @@ PrefabInstance:
         type: 3}
       propertyPath: itemScriptable
       value: 
-      objectReference: {fileID: 11400000, guid: fc7bdbd4ddc779a4396fb7e8d4e36e88,
+      objectReference: {fileID: 11400000, guid: b27aeed40a37f4749ac9076852b61a3a,
         type: 2}
     - target: {fileID: 3138441790804738521, guid: 0575cfaae48e56e47ab554aed99961e6,
         type: 3}
@@ -938,7 +938,7 @@ PrefabInstance:
     - target: {fileID: 9144718339024574233, guid: 0575cfaae48e56e47ab554aed99961e6,
         type: 3}
       propertyPath: m_Name
-      value: Key
+      value: Record
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0575cfaae48e56e47ab554aed99961e6, type: 3}

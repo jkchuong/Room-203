@@ -1,4 +1,5 @@
-﻿using UI;
+﻿using Interactions;
+using UI;
 using UnityEngine;
 
 public class Player : MonoBehaviour

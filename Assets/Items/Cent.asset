@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f2ccde267b00e14aa7abba87125ff56, type: 3}
-  m_Name: Record
+  m_Name: Cent
   m_EditorClassIdentifier: 
-  display: {fileID: 21300000, guid: 6772fb8c6d3a5134a8c3c840de725a52, type: 3}
-  title: Record
-  description: A Record of the Seagulls.
+  display: {fileID: 21300000, guid: 41cbecfe266403747978ff3f5d0e476e, type: 3}
+  title: Coin
+  description: 'A coin dated 1900. '

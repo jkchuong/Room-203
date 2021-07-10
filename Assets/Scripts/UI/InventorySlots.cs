@@ -25,6 +25,7 @@ namespace UI
         public void ActivateButton(int index, ItemScriptable itemScriptable)
         {
             buttonList[index].ActivateButton(itemScriptable);
+            imageList[index].color = Color.white;
             imageList[index].sprite = itemScriptable.display;
         }
     }

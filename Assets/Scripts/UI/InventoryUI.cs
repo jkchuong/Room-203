@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using Inventory;
-using TMPro;
+using Managers;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace UI
 {
@@ -12,8 +13,13 @@ namespace UI
 
         [Header("Inventory Slots")]
         [SerializeField] private InventorySlots inventorySlots;
+
+        [Header("Door Plate Slots")] [SerializeField]
+        private List<DoorPlateSlots> doorPlateSlots = new List<DoorPlateSlots>();
         
+        private readonly List<TimeEra> doorPlates = new List<TimeEra>();
         private readonly List<ItemScriptable> itemList = new List<ItemScriptable>();
+        
         private bool isShown;
 
         public static InventoryUI Instance;
@@ -36,8 +42,9 @@ namespace UI
         private void Start()
         {
             ShowUI(false);
+            AddDoorPlate(TimeEra.Early);
         }
-
+        
         private void ShowUI(bool show)
         {
             if (show)
@@ -64,14 +71,40 @@ namespace UI
 
         public void AddItem(ItemScriptable itemScriptable)
         {
-            itemList.Add(itemScriptable);
-            RefreshInventory();
+            switch (itemScriptable.type)
+            {
+                case ItemType.Item:
+                    itemList.Add(itemScriptable);
+                    RefreshInventory();
+                    break;
+                
+                case ItemType.DoorPlate:
+                    AddDoorPlate(itemScriptable.timeEra);
+                    break;
+                
+                default:
+                    return;
+            }
         }
 
         public void SetUI()
         {
             ShowUI(!isShown);
             isShown = !isShown;
+        }
+
+        public void AddDoorPlate(TimeEra plate)
+        {
+            if (doorPlates.Contains(plate)) return;
+            
+            doorPlates.Add(plate);
+            DoorPlateSlots slot = doorPlateSlots.FirstOrDefault(x => x.timeEra == plate);
+            slot.ShowPlate();
+        }
+
+        public bool ContainsPlate(TimeEra plate)
+        {
+            return doorPlates.Contains(plate);
         }
     }
 }

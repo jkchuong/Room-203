@@ -5,8 +5,6 @@ namespace Managers
     public class GameManager : MonoBehaviour
     {
         public static GameManager Instance;
-        
-        // Store Rooms Unlocked
 
         private void Awake()
         {
