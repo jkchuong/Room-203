@@ -61,8 +61,6 @@ namespace UI
         {
             ShowUI(!isShown);
             isShown = !isShown;
-            Player player = FindObjectOfType<Player>();
-            player.isPaused = !player.isPaused;
         }
     }
 }

@@ -101,5 +101,10 @@ namespace UI
         {
             return doorPlates.Contains(plate);
         }
+
+        public bool ContainsItem(ItemScriptable itemScriptable)
+        {
+            return itemList.Contains(itemScriptable);
+        }
     }
 }

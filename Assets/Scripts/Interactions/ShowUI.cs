@@ -16,7 +16,6 @@ namespace Interactions
         public void Interact()
         {
             DoorUI.Instance.SetUI();
-            player.isPaused = !player.isPaused;
         }
     }
 }

@@ -7,6 +7,8 @@ namespace Interactions
     {
         [TextArea(5, 12)]
         [SerializeField] private string dialogue;
+
+        [SerializeField] private float duration = 5f;
         
         private DialogueBox dialogueBox;
 
@@ -17,7 +19,7 @@ namespace Interactions
         
         public void Interact()
         {
-            StartCoroutine(dialogueBox.ShowDialogue(dialogue));
+            StartCoroutine(dialogueBox.ShowDialogue(dialogue, duration));
         }
     }
 }

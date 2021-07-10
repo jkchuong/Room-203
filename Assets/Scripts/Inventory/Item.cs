@@ -1,4 +1,5 @@
-﻿using Interactions;
+﻿using System;
+using Interactions;
 using UI;
 using UnityEngine;
 
@@ -18,6 +19,14 @@ namespace Inventory
 
             particles = GetComponent<ParticleSystem>();
             collider2d = GetComponent<Collider2D>();
+        }
+
+        private void Start()
+        {
+            if (InventoryUI.Instance.ContainsItem(itemScriptable))
+            {
+                Destroy(gameObject);
+            }
         }
 
         public void Interact()

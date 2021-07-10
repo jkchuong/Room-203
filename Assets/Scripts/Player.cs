@@ -80,7 +80,7 @@ public class Player : MonoBehaviour
         rigidbody2d.MovePosition(position);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Interactable"))
         {

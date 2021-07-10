@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using Inventory;
+using UnityEngine;
 
 namespace Managers
 {
@@ -6,6 +8,8 @@ namespace Managers
     {
         public static GameManager Instance;
 
+        public List<QuestProgression> QuestProgressions = new List<QuestProgression>();
+        
         private void Awake()
         {
             if (Instance != null && Instance != this)
