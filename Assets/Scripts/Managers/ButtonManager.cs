@@ -1,4 +1,5 @@
-﻿using UI;
+﻿using System;
+using UI;
 using UnityEngine;
 
 namespace Managers
@@ -12,7 +13,7 @@ namespace Managers
 
         public void StartButton()
         {
-            SceneLoader.Instance.FadeSceneLoad("Corridor");
+            SceneLoader.Instance.FadeSceneLoad("Room Early");
         }
 
         public void ControlsButton()
@@ -23,6 +24,11 @@ namespace Managers
         public void CreditsButton()
         {
             Debug.LogError("Credits not set up");
+        }
+
+        public void CloseDoor()
+        {
+            DoorUI.Instance.SetUI();
         }
     }
 }

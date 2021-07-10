@@ -1,13 +1,23 @@
-﻿using UnityEngine;
+﻿using UI;
+using UnityEngine;
 
 namespace Interactions
 {
     public class ReadItem : MonoBehaviour, IInteractable
     {
-        // Interact with item and show dialogue
+        [TextArea(5, 12)]
+        [SerializeField] private string dialogue;
+        
+        private DialogueBox dialogueBox;
+
+        private void Awake()
+        {
+            dialogueBox = FindObjectOfType<DialogueBox>();
+        }
+        
         public void Interact()
         {
-            throw new System.NotImplementedException();
+            StartCoroutine(dialogueBox.ShowDialogue(dialogue));
         }
     }
 }

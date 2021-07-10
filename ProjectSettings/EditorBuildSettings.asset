@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 746ce026a3fc25041bd27c03771e056b
   - enabled: 1
-    path: Assets/Scenes/Corridor.unity
-    guid: dd01a24d0aaa1304db16d283be2a20d5
-  - enabled: 1
     path: Assets/Scenes/Room Early.unity
     guid: 1501417a19d68ba48be68733d7d00a16
   - enabled: 1

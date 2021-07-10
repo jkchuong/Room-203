@@ -36,6 +36,9 @@ namespace Managers
             
             yield return SceneManager.LoadSceneAsync(sceneName);
 
+            InventoryUI.Instance.ShowUI(false);
+            DoorUI.Instance.ShowUI(false);
+            
             yield return new WaitForSeconds(fadeWaitTime);
             
             yield return Fader.Instance.FadeIn(fadingTime);

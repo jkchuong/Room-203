@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using Inventory;
 using Managers;
 using UnityEngine;
@@ -13,9 +11,6 @@ namespace UI
 
         [Header("Inventory Slots")]
         [SerializeField] private InventorySlots inventorySlots;
-
-        [Header("Door Plate Slots")] [SerializeField]
-        private List<DoorPlateSlots> doorPlateSlots = new List<DoorPlateSlots>();
         
         private readonly List<TimeEra> doorPlates = new List<TimeEra>();
         private readonly List<ItemScriptable> itemList = new List<ItemScriptable>();
@@ -37,15 +32,17 @@ namespace UI
             }
             
             canvasGroup = GetComponent<CanvasGroup>();
+            
+            doorPlates.Add(TimeEra.Early);
         }
         
         private void Start()
         {
             ShowUI(false);
-            AddDoorPlate(TimeEra.Early);
+            DoorUI.Instance.RefreshDoorPanels();
         }
         
-        private void ShowUI(bool show)
+        public void ShowUI(bool show)
         {
             if (show)
             {
@@ -93,13 +90,11 @@ namespace UI
             isShown = !isShown;
         }
 
-        public void AddDoorPlate(TimeEra plate)
+        private void AddDoorPlate(TimeEra plate)
         {
             if (doorPlates.Contains(plate)) return;
-            
             doorPlates.Add(plate);
-            DoorPlateSlots slot = doorPlateSlots.FirstOrDefault(x => x.timeEra == plate);
-            slot.ShowPlate();
+            DoorUI.Instance.RefreshDoorPanels();
         }
 
         public bool ContainsPlate(TimeEra plate)

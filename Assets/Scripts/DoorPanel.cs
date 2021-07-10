@@ -1,12 +1,12 @@
-﻿using System;
-using Managers;
+﻿using Managers;
 using UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DoorPanel : MonoBehaviour
 {
-    [SerializeField] private TimeEra timeEra;
+    public TimeEra timeEra;
     
     private Button panelButton;
 
@@ -18,11 +18,24 @@ public class DoorPanel : MonoBehaviour
     private void Start()
     {
         panelButton.onClick.AddListener(delegate { LoadScene(timeEra.ToString()); });
-        panelButton.interactable = InventoryUI.Instance.ContainsPlate(timeEra);
+    }
+
+    public void ActivateButton()
+    {
+        panelButton.interactable = true;
     }
 
     private static void LoadScene(string scene)
     {
-        SceneLoader.Instance.FadeSceneLoad("Room " + scene);
+        if (SceneManager.GetActiveScene().name == "Room " + scene)
+        {
+            DoorUI.Instance.SetUI(); // Close the door UI since you're in the same scene
+        }
+        else
+        {
+            SceneLoader.Instance.FadeSceneLoad("Room " + scene);
+        }
+
+        FindObjectOfType<Player>().isPaused = false;
     }
 }

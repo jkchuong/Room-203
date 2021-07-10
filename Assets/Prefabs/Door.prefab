@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7846903162523463522}
   - component: {fileID: 7846903162523463523}
-  - component: {fileID: 7846903162523463520}
+  - component: {fileID: 6795875208933834365}
   m_Layer: 0
-  m_Name: Initeractable Area
+  m_Name: Interactable Area
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7846903162523463549}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.02, z: 0}
+  m_LocalPosition: {x: 0, y: 1.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7846903164486382710}
@@ -58,7 +58,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.11, y: 1}
   m_EdgeRadius: 0
---- !u!114 &7846903162523463520
+--- !u!114 &6795875208933834365
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -67,10 +67,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7846903162523463549}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f49e508a7411114db04a98dfe7a1ab4, type: 3}
+  m_Script: {fileID: 11500000, guid: a51002504ee49f9408114302302c82d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorCanvas: {fileID: 0}
+  canvas: {fileID: 7592199052902670025, guid: 5cb9416aefc9ca04b8abd5bfeb543e3e, type: 3}
 --- !u!1 &7846903164486382707
 GameObject:
   m_ObjectHideFlags: 0

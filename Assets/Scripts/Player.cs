@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     // Cache    
     private float horizontal;
     private float vertical;
-    private bool isPaused;
+    public bool isPaused;
 
     private IInteractable interactableObject;
 
@@ -30,11 +30,11 @@ public class Player : MonoBehaviour
     
     private void Update()
     {
-        Move();
-
         Interact();
-
         OpenInventory();
+
+        if (isPaused) return;
+        Move();
     }
 
     private void OpenInventory()
@@ -42,6 +42,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             InventoryUI.Instance.SetUI();
+            isPaused = !isPaused;
         }
     }
 

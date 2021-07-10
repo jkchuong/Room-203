@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f2ccde267b00e14aa7abba87125ff56, type: 3}
-  m_Name: Plate4
+  m_Name: Plate0
   m_EditorClassIdentifier: 
   type: 1
-  timeEra: 1
+  timeEra: 0
   display: {fileID: 0}
-  title: Plate1
+  title: Plate0
   description: 
