@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Inventory;
 using UnityEngine;
 
@@ -21,6 +22,11 @@ namespace Managers
                 Instance = this;
                 DontDestroyOnLoad(gameObject);
             }
+        }
+
+        private void Start()
+        {
+            QuestProgressions.Add(QuestProgression.Default);
         }
     }
 }

@@ -381,6 +381,21 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 647569313952370639, guid: 0575cfaae48e56e47ab554aed99961e6,
         type: 3}
+      propertyPath: quest
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 647569313952370639, guid: 0575cfaae48e56e47ab554aed99961e6,
+        type: 3}
+      propertyPath: questAfter
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 647569313952370639, guid: 0575cfaae48e56e47ab554aed99961e6,
+        type: 3}
+      propertyPath: questBefore
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 647569313952370639, guid: 0575cfaae48e56e47ab554aed99961e6,
+        type: 3}
       propertyPath: itemScriptable
       value: 
       objectReference: {fileID: 11400000, guid: 1260c013497b68f4a81831d200736d73,
@@ -879,6 +894,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 647569313952370639, guid: 0575cfaae48e56e47ab554aed99961e6,
         type: 3}
+      propertyPath: questAfter
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 647569313952370639, guid: 0575cfaae48e56e47ab554aed99961e6,
+        type: 3}
+      propertyPath: questBefore
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 647569313952370639, guid: 0575cfaae48e56e47ab554aed99961e6,
+        type: 3}
       propertyPath: itemScriptable
       value: 
       objectReference: {fileID: 11400000, guid: 30e28a4bd937c2e4d939279969d59291,
@@ -1202,6 +1227,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2174506156548152728, guid: a0527118becbbfb468dec156637f3ba8,
         type: 3}
+      propertyPath: quest
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2174506156548152728, guid: a0527118becbbfb468dec156637f3ba8,
+        type: 3}
       propertyPath: dialogue
       value: Something falls out as you open the drawer.
       objectReference: {fileID: 0}
@@ -1210,6 +1240,11 @@ PrefabInstance:
       propertyPath: itemToShow
       value: 
       objectReference: {fileID: 1699122871}
+    - target: {fileID: 2174506156548152728, guid: a0527118becbbfb468dec156637f3ba8,
+        type: 3}
+      propertyPath: questAfter
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2174506156548152728, guid: a0527118becbbfb468dec156637f3ba8,
         type: 3}
       propertyPath: dialogueAfter
