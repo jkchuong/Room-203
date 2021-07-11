@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Collections;
 using UnityEngine;
 
 namespace Managers
@@ -6,7 +6,11 @@ namespace Managers
     public class AudioManager : MonoBehaviour
     {
         public static AudioManager Instance;
-        
+
+        [SerializeField] private float volume;
+        [SerializeField] private AudioClip audioClip;
+
+        private float time = 0.7f;
         private AudioSource audioSource;
 
         private void Awake()
@@ -24,10 +28,36 @@ namespace Managers
             audioSource = GetComponent<AudioSource>();
         }
 
-        public void PlayClipRepeat(AudioClip audioClip)
+        private void Start()
         {
-            audioSource.clip = audioClip;
+            if (audioClip)
+            {
+                PlayClipRepeat(audioClip);
+            }
+        }
+
+        public void PlayClipRepeat(AudioClip clip)
+        {
+            audioSource.clip = clip;
             audioSource.loop = true;
+        }
+
+        public IEnumerator MuteAudio()
+        {
+            while (audioSource.volume > 0)
+            {
+                audioSource.volume -= Time.deltaTime / time;
+                yield return null;
+            }
+        }
+
+        public IEnumerator PlayAudio()
+        {
+            while (audioSource.volume < volume)
+            {
+                audioSource.volume += Time.deltaTime / time;
+                yield return null;
+            }
         }
     }
 }

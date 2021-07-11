@@ -9,8 +9,11 @@ namespace Managers
     {
         [SerializeField] private float fadingTime = 0.8f;
         [SerializeField] private float fadeWaitTime = 0.5f;
-
+        [SerializeField] private AudioClip doorClip;
+        
         public static SceneLoader Instance;
+
+        private AudioSource audioSource;
 
         private void Awake()
         {
@@ -23,6 +26,8 @@ namespace Managers
                 Instance = this;
                 DontDestroyOnLoad(gameObject);
             }
+
+            audioSource = GetComponent<AudioSource>();
         }
 
         public void FadeSceneLoad(string sceneName)
@@ -36,6 +41,7 @@ namespace Managers
             
             yield return SceneManager.LoadSceneAsync(sceneName);
 
+            audioSource.PlayOneShot(doorClip);
             InventoryUI.Instance.ShowUI(false);
             DoorUI.Instance.ShowUI(false);
             

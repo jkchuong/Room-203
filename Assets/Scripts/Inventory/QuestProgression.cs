@@ -27,11 +27,17 @@
 
         // Plate 4
         FoundLocket,
+        SearchedBookcase,
         FoundMagazine,
         FoundDress,
         Plate4,
         
         // Key
+        FoundRecord,
+        PlayedRecord,
+        FoundPhone,
+        FoundMovieTicket,
+        OpenedSafe,
         Key
     }
 }

@@ -1,67 +1,73 @@
 fileFormatVersion: 2
-guid: 8739b8be62041654e87f711590e71cda
+guid: 40f6b01cdf37a2b4f8c615a08d526c6f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2564579700514296341
-    second: 1940s spritesheet_0
+      213: -6217508239885574934
+    second: 1980s spritesheet_0
   - first:
-      213: -6945237149334709591
-    second: 1940s spritesheet_1
+      213: -3336866817105552392
+    second: 1980s spritesheet_1
   - first:
-      213: -1187747231073160508
-    second: 1940s spritesheet_2
+      213: -224192029849040034
+    second: 1980s spritesheet_2
   - first:
-      213: 5920072781143828454
-    second: 1940s spritesheet_3
+      213: -5120900355795876786
+    second: 1980s spritesheet_3
   - first:
-      213: 4578076077440575199
-    second: 1940s spritesheet_4
+      213: -8537874099584969782
+    second: 1980s spritesheet_4
   - first:
-      213: -7211065003001491764
-    second: 1940s spritesheet_5
+      213: 5682981627903823234
+    second: 1980s spritesheet_5
   - first:
-      213: -8934338975184053954
-    second: 1940s spritesheet_6
+      213: -3247583682708528180
+    second: 1980s spritesheet_6
   - first:
-      213: -7591076168438661969
-    second: 1940s spritesheet_7
+      213: -2114960939618677650
+    second: 1980s spritesheet_7
   - first:
-      213: -5881158070750215516
-    second: 1940s spritesheet_8
+      213: 4671155739300805090
+    second: 1980s spritesheet_8
   - first:
-      213: -3622133236354226255
-    second: 1940s spritesheet_9
+      213: 4144155208538676723
+    second: 1980s spritesheet_9
   - first:
-      213: 6597982324382566778
-    second: 1940s spritesheet_10
+      213: -6133897981578085681
+    second: 1980s spritesheet_10
   - first:
-      213: 2772186671294648116
-    second: 1940s spritesheet_11
+      213: -2431364497767371448
+    second: 1980s spritesheet_11
   - first:
-      213: 5612072572376588315
-    second: 1940s spritesheet_12
+      213: 1171617898886889265
+    second: 1980s spritesheet_12
   - first:
-      213: 8081546882092209784
-    second: 1940s spritesheet_13
+      213: 2751561075705919238
+    second: 1980s spritesheet_13
   - first:
-      213: -2978844201770677252
-    second: 1940s spritesheet_14
+      213: 83426052767298083
+    second: 1980s spritesheet_14
   - first:
-      213: 9031907937868060397
-    second: 1940s spritesheet_15
+      213: 7478531251298442549
+    second: 1980s spritesheet_15
   - first:
-      213: 8257008587793530255
-    second: 1940s spritesheet_16
+      213: -5334472664709644763
+    second: 1980s spritesheet_16
   - first:
-      213: -691127009459973413
-    second: 1940s spritesheet_17
+      213: 4020850302050235503
+    second: 1980s spritesheet_17
   - first:
-      213: 8843940283499000186
-    second: 1940s spritesheet_18
+      213: -4212980598337061727
+    second: 1980s spritesheet_18
   - first:
-      213: 5563084001772231038
-    second: 1940s spritesheet_19
+      213: -5637244204017717832
+    second: 1980s spritesheet_19
+  - first:
+      213: -2164213800742200852
+    second: 1980s spritesheet_20
+  - first:
+      213: -4401854472604983111
+    second: 1980s spritesheet_21
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -171,13 +177,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1940s spritesheet_0
+      name: 1980s spritesheet_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 16
-        width: 1024
-        height: 768
+        x: 16
+        y: 34
+        width: 1028
+        height: 770
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,251 +191,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 512155f56a7379320800000000000000
-      internalID: 2564579700514296341
+      spriteID: aec5e859239f6b9a0800000000000000
+      internalID: -6217508239885574934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1940s spritesheet_1
+      name: 1980s spritesheet_1
       rect:
         serializedVersion: 2
-        x: 1052
-        y: 542
+        x: 1057
+        y: 696
+        width: 57
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb92af2f4111b1d0800000000000000
+      internalID: -3336866817105552392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1980s spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 696
+        width: 56
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bcf53698283ecf0800000000000000
+      internalID: -224192029849040034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1980s spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 673
         width: 186
-        height: 242
-      alignment: 9
-      pivot: {x: 0.5, y: 0.63}
+        height: 130
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aade013c9f8d9f90800000000000000
-      internalID: -6945237149334709591
+      spriteID: e448d921248eee8b0800000000000000
+      internalID: -5120900355795876786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1940s spritesheet_2
+      name: 1980s spritesheet_4
       rect:
         serializedVersion: 2
-        x: 1256
-        y: 603
-        width: 186
-        height: 181
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c23ee0bf26448fe0800000000000000
-      internalID: -1187747231073160508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 1451
-        y: 765
-        width: 263
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e7698c14d2582250800000000000000
-      internalID: 5920072781143828454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 1742
-        y: 639
-        width: 213
-        height: 147
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd62f8ecfe7988f30800000000000000
-      internalID: 4578076077440575199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 1451
-        y: 684
-        width: 51
-        height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cce48dbe5962deb90800000000000000
-      internalID: -7211065003001491764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 1527
-        y: 575
-        width: 48
-        height: 176
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e391a39c90ad20480800000000000000
-      internalID: -8934338975184053954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_7
-      rect:
-        serializedVersion: 2
-        x: 1610
-        y: 655
-        width: 112
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: facb74da17417a690800000000000000
-      internalID: -7591076168438661969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_8
-      rect:
-        serializedVersion: 2
-        x: 1610
-        y: 613
-        width: 42
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a20305f4ede16ea0800000000000000
-      internalID: -5881158070750215516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_9
-      rect:
-        serializedVersion: 2
-        x: 1672
-        y: 613
-        width: 42
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b768fd23099bbdc0800000000000000
-      internalID: -3622133236354226255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_10
-      rect:
-        serializedVersion: 2
-        x: 1758
-        y: 542
-        width: 197
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a79012767fdb09b50800000000000000
-      internalID: 6597982324382566778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_11
-      rect:
-        serializedVersion: 2
-        x: 1281
-        y: 526
-        width: 221
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43f07910719c87620800000000000000
-      internalID: 2772186671294648116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_12
-      rect:
-        serializedVersion: 2
-        x: 1652
-        y: 514
+        x: 1483
+        y: 578
         width: 76
-        height: 80
+        height: 191
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +275,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b102832454612ed40800000000000000
-      internalID: 5612072572376588315
+      spriteID: ac3da35fdb0638980800000000000000
+      internalID: -8537874099584969782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1940s spritesheet_13
+      name: 1980s spritesheet_5
       rect:
         serializedVersion: 2
-        x: 1052
-        y: 379
-        width: 249
-        height: 120
+        x: 1577
+        y: 672
+        width: 130
+        height: 124
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,20 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87695c6421c672070800000000000000
-      internalID: 8081546882092209784
+      spriteID: 28d474c4ea10ede40800000000000000
+      internalID: 5682981627903823234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1940s spritesheet_14
+      name: 1980s spritesheet_6
       rect:
         serializedVersion: 2
-        x: 1323
-        y: 363
-        width: 279
-        height: 144
+        x: 1812
+        y: 601
+        width: 67
+        height: 168
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,20 +317,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfb0a382bf409a6d0800000000000000
-      internalID: -2978844201770677252
+      spriteID: cc3adc5d8d34ee2d0800000000000000
+      internalID: -3247583682708528180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1940s spritesheet_15
+      name: 1980s spritesheet_7
       rect:
         serializedVersion: 2
-        x: 1661
-        y: 342
-        width: 65
-        height: 165
+        x: 1899
+        y: 725
+        width: 198
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,20 +338,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de618a89a68c75d70800000000000000
-      internalID: 9031907937868060397
+      spriteID: e6cc3302b3626a2e0800000000000000
+      internalID: -2114960939618677650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1940s spritesheet_16
+      name: 1980s spritesheet_8
       rect:
         serializedVersion: 2
-        x: 1758
-        y: 478
-        width: 42
-        height: 42
+        x: 2122
+        y: 752
+        width: 34
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -521,20 +359,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8d78c62099c69270800000000000000
-      internalID: 8257008587793530255
+      spriteID: 2e93d83656743d040800000000000000
+      internalID: 4671155739300805090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1940s spritesheet_17
+      name: 1980s spritesheet_9
       rect:
         serializedVersion: 2
-        x: 1069
-        y: 91
-        width: 92
-        height: 278
+        x: 2212
+        y: 686
+        width: 79
+        height: 103
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -542,20 +380,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd2d57a85af9866f0800000000000000
-      internalID: -691127009459973413
+      spriteID: 3fd580b943ff28930800000000000000
+      internalID: 4144155208538676723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1940s spritesheet_18
+      name: 1980s spritesheet_10
       rect:
         serializedVersion: 2
-        x: 1198
-        y: 277
-        width: 207
-        height: 81
+        x: 1060
+        y: 638
+        width: 138
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -563,20 +401,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a71b9b4a4dcfbba70800000000000000
-      internalID: 8843940283499000186
+      spriteID: fca7d87d84400eaa0800000000000000
+      internalID: -6133897981578085681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1940s spritesheet_19
+      name: 1980s spritesheet_11
       rect:
         serializedVersion: 2
-        x: 1368
-        y: 8
-        width: 358
-        height: 269
+        x: 1911
+        y: 680
+        width: 265
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,8 +422,224 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e79da45dc6b043d40800000000000000
-      internalID: 5563084001772231038
+      spriteID: 84d64170fde024ed0800000000000000
+      internalID: -2431364497767371448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1980s spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 596
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f74a3854c624010800000000000000
+      internalID: 1171617898886889265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1980s spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 581
+        width: 103
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6073e3f48328f2620800000000000000
+      internalID: 2751561075705919238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1980s spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 569
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32235309d83682100800000000000000
+      internalID: 83426052767298083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1980s spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 572
+        width: 186
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d1d43dc8419c760800000000000000
+      internalID: 7478531251298442549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1980s spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 572
+        width: 210
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e33fbef5528f5b0800000000000000
+      internalID: -5334472664709644763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1980s spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 112
+        width: 492
+        height: 491
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64f9bcdb0eecc730800000000000000
+      internalID: 4020850302050235503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1980s spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 160
+        width: 204
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acb186977c7885c0800000000000000
+      internalID: -4212980598337061727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1980s spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 301
+        width: 238
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bde46b834c74c1b0800000000000000
+      internalID: -5637244204017717832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1980s spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 369
+        width: 62
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce953c4c30b27f1e0800000000000000
+      internalID: -2164213800742200852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1980s spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 34
+        width: 236
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -117, y: 14.5}
+        - {x: -117, y: 78.5}
+        - {x: -54, y: 143.5}
+        - {x: 116, y: -25.5}
+        - {x: 116, y: -85.5}
+        - {x: 47, y: -143.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b06a6fdda879e2c0800000000000000
+      internalID: -4401854472604983111
       vertices: []
       indices: 
       edges: []

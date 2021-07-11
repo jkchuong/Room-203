@@ -10,6 +10,7 @@ namespace Interactions
     {
         [SerializeField] private bool interactImmediate;
         [SerializeField] private bool destroyAfterUse;
+        [SerializeField] private AudioClip audioClip;
 
         [Tooltip("The quest needed to be completed before doing this.")]
         [SerializeField] private QuestProgression questBefore = QuestProgression.Default;
@@ -33,10 +34,15 @@ namespace Interactions
         [SerializeField] private Sprite afterSprite;
         
         private DialogueBox dialogueBox;
-        
+        private AudioSource audioSource;
+
+        private void Awake()
+        {
+            audioSource = GetComponent<AudioSource>();
+        }
+
         private void Start()
         {
-
             dialogueBox = FindObjectOfType<DialogueBox>();
             
             if (beforeSprite)
@@ -87,9 +93,16 @@ namespace Interactions
                 {
                     spriteRenderer.sprite = afterSprite;
                 }
-                
-                if (!itemToShow) return;
-                itemToShow.SetActive(true);
+
+                if (itemToShow)
+                {
+                    itemToShow.SetActive(true);
+                }
+            }
+            
+            if (audioClip)
+            {
+                audioSource.PlayOneShot(audioClip);
             }
         }
     }

@@ -1,4 +1,5 @@
-﻿using Managers;
+﻿using Inventory;
+using Managers;
 using UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -25,7 +26,7 @@ public class DoorPanel : MonoBehaviour
         panelButton.interactable = true;
     }
 
-    private static void LoadScene(string scene)
+    private void LoadScene(string scene)
     {
         if (SceneManager.GetActiveScene().name == "Room " + scene)
         {
@@ -34,6 +35,16 @@ public class DoorPanel : MonoBehaviour
         else
         {
             SceneLoader.Instance.FadeSceneLoad("Room " + scene);
+            
+            // Mute audio if player hasn't played record player yet
+            if (!GameManager.Instance.QuestProgressions.Contains(QuestProgression.PlayedRecord) && scene == "Late")
+            {
+                StartCoroutine(AudioManager.Instance.MuteAudio());
+            }
+            else
+            {
+                StartCoroutine(AudioManager.Instance.PlayAudio());
+            }
         }
 
         FindObjectOfType<Player>().isPaused = false;

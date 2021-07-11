@@ -478,6 +478,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 602385305920765721, guid: a13c68b6f4821584f89fe12dc6c540ee,
+        type: 3}
+      propertyPath: QuestProgressions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 602385305920765721, guid: a13c68b6f4821584f89fe12dc6c540ee,
+        type: 3}
+      propertyPath: QuestProgressions.Array.data[0]
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 602385305920765721, guid: a13c68b6f4821584f89fe12dc6c540ee,
+        type: 3}
+      propertyPath: QuestProgressions.Array.data[1]
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8461121956716639763, guid: a13c68b6f4821584f89fe12dc6c540ee,
         type: 3}
       propertyPath: m_RootOrder

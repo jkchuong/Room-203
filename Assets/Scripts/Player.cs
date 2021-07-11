@@ -6,10 +6,12 @@ public class Player : MonoBehaviour
 {
     // Constants
     [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private AudioClip[] footstepsClips;
     
     // Components
     private Rigidbody2D rigidbody2d;
     private Animator animator;
+    private AudioSource audioSource;
     
     // Cache    
     private float horizontal;
@@ -26,7 +28,7 @@ public class Player : MonoBehaviour
 
 
         animator = GetComponent<Animator>();
-        // audioSource = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
     }
     
     private void Update()
@@ -95,6 +97,12 @@ public class Player : MonoBehaviour
         {
             interactableObject = null;
         }
+    }
+
+    public void PlayFootsteps()
+    {
+        AudioClip footstep = footstepsClips[Random.Range(0, footstepsClips.Length - 1)];
+        audioSource.PlayOneShot(footstep);
     }
 
 }

@@ -1521,7 +1521,7 @@ PrefabInstance:
     - target: {fileID: 2174506156548152728, guid: a0527118becbbfb468dec156637f3ba8,
         type: 3}
       propertyPath: questBefore
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2174506156548152728, guid: a0527118becbbfb468dec156637f3ba8,
         type: 3}
@@ -1934,6 +1934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactImmediate: 1
   destroyAfterUse: 1
+  audioClip: {fileID: 0}
   questBefore: 2
   questAfter: 3
   itemToShow: {fileID: 0}
@@ -2675,6 +2676,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactImmediate: 1
   destroyAfterUse: 1
+  audioClip: {fileID: 0}
   questBefore: 4
   questAfter: 5
   itemToShow: {fileID: 0}
@@ -4605,7 +4607,7 @@ PrefabInstance:
     - target: {fileID: 1250413319177196469, guid: 31d8e893aa236b7458935643cf55d8cc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.56
+      value: -3.96
       objectReference: {fileID: 0}
     - target: {fileID: 1250413319177196469, guid: 31d8e893aa236b7458935643cf55d8cc,
         type: 3}

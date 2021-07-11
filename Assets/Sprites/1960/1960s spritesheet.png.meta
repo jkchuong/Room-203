@@ -1,67 +1,52 @@
 fileFormatVersion: 2
-guid: 8739b8be62041654e87f711590e71cda
+guid: a90a8bee128be0d419112d0616ed4c79
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2564579700514296341
-    second: 1940s spritesheet_0
+      213: 7095048219599302737
+    second: 1960s spritesheet_0
   - first:
-      213: -6945237149334709591
-    second: 1940s spritesheet_1
+      213: -1871840923266991106
+    second: 1960s spritesheet_1
   - first:
-      213: -1187747231073160508
-    second: 1940s spritesheet_2
+      213: -4542984764410206666
+    second: 1960s spritesheet_2
   - first:
-      213: 5920072781143828454
-    second: 1940s spritesheet_3
+      213: 4683889773001394872
+    second: 1960s spritesheet_3
   - first:
-      213: 4578076077440575199
-    second: 1940s spritesheet_4
+      213: 1788972599196455170
+    second: 1960s spritesheet_4
   - first:
-      213: -7211065003001491764
-    second: 1940s spritesheet_5
+      213: -3162149986695373417
+    second: 1960s spritesheet_5
   - first:
-      213: -8934338975184053954
-    second: 1940s spritesheet_6
+      213: -3109976654229310004
+    second: 1960s spritesheet_6
   - first:
-      213: -7591076168438661969
-    second: 1940s spritesheet_7
+      213: 4193062066234799959
+    second: 1960s spritesheet_7
   - first:
-      213: -5881158070750215516
-    second: 1940s spritesheet_8
+      213: -5484004886770701735
+    second: 1960s spritesheet_8
   - first:
-      213: -3622133236354226255
-    second: 1940s spritesheet_9
+      213: 8794621134720914812
+    second: 1960s spritesheet_9
   - first:
-      213: 6597982324382566778
-    second: 1940s spritesheet_10
+      213: -5491973409602793707
+    second: 1960s spritesheet_10
   - first:
-      213: 2772186671294648116
-    second: 1940s spritesheet_11
+      213: -7249178485925277531
+    second: 1960s spritesheet_11
   - first:
-      213: 5612072572376588315
-    second: 1940s spritesheet_12
+      213: 2786795649667293932
+    second: 1960s spritesheet_12
   - first:
-      213: 8081546882092209784
-    second: 1940s spritesheet_13
+      213: 8002559723248502568
+    second: 1960s spritesheet_13
   - first:
-      213: -2978844201770677252
-    second: 1940s spritesheet_14
-  - first:
-      213: 9031907937868060397
-    second: 1940s spritesheet_15
-  - first:
-      213: 8257008587793530255
-    second: 1940s spritesheet_16
-  - first:
-      213: -691127009459973413
-    second: 1940s spritesheet_17
-  - first:
-      213: 8843940283499000186
-    second: 1940s spritesheet_18
-  - first:
-      213: 5563084001772231038
-    second: 1940s spritesheet_19
+      213: -2235093462151277366
+    second: 1960s spritesheet_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -171,11 +156,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1940s spritesheet_0
+      name: 1960s spritesheet_0
       rect:
         serializedVersion: 2
         x: 14
-        y: 16
+        y: 79
         width: 1024
         height: 768
       alignment: 0
@@ -185,41 +170,104 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 512155f56a7379320800000000000000
-      internalID: 2564579700514296341
+      spriteID: 150fb79b3cca67260800000000000000
+      internalID: 7095048219599302737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1940s spritesheet_1
+      name: 1960s spritesheet_1
       rect:
         serializedVersion: 2
         x: 1052
-        y: 542
-        width: 186
-        height: 242
+        y: 819
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbb1a40992e506e0800000000000000
+      internalID: -1871840923266991106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1960s spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 606
+        width: 234
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63661513d6314f0c0800000000000000
+      internalID: -4542984764410206666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1960s spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 656
+        width: 109
+        height: 191
       alignment: 9
-      pivot: {x: 0.5, y: 0.63}
+      pivot: {x: 0.43629834, y: 0.42454362}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aade013c9f8d9f90800000000000000
-      internalID: -6945237149334709591
+      spriteID: 8ba45d6aee4800140800000000000000
+      internalID: 4683889773001394872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1940s spritesheet_2
+      name: 1960s spritesheet_4
       rect:
         serializedVersion: 2
-        x: 1256
-        y: 603
-        width: 186
-        height: 181
+        x: 1493
+        y: 674
+        width: 99
+        height: 173
+      alignment: 9
+      pivot: {x: 0.47952056, y: 0.36525518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2011300c915b3d810800000000000000
+      internalID: 1788972599196455170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1960s spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 742
+        width: 44
+        height: 65
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +275,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c23ee0bf26448fe0800000000000000
-      internalID: -1187747231073160508
+      spriteID: 79d14844759cd14d0800000000000000
+      internalID: -3162149986695373417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1940s spritesheet_3
+      name: 1960s spritesheet_6
       rect:
         serializedVersion: 2
-        x: 1451
-        y: 765
-        width: 263
-        height: 21
+        x: 1404
+        y: 565
+        width: 89
+        height: 68
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,19 +296,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e7698c14d2582250800000000000000
-      internalID: 5920072781143828454
+      spriteID: cc577e8d5b427d4d0800000000000000
+      internalID: -3109976654229310004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1940s spritesheet_4
+      name: 1960s spritesheet_7
       rect:
         serializedVersion: 2
-        x: 1742
-        y: 639
-        width: 213
+        x: 1052
+        y: 414
+        width: 279
         height: 147
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -269,20 +317,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd62f8ecfe7988f30800000000000000
-      internalID: 4578076077440575199
+      spriteID: 7573713cbbfb03a30800000000000000
+      internalID: 4193062066234799959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1940s spritesheet_5
+      name: 1960s spritesheet_8
       rect:
         serializedVersion: 2
-        x: 1451
-        y: 684
-        width: 51
-        height: 67
+        x: 1358
+        y: 424
+        width: 244
+        height: 130
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,270 +338,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cce48dbe5962deb90800000000000000
-      internalID: -7211065003001491764
+      spriteID: 95aa6896c96e4e3b0800000000000000
+      internalID: -5484004886770701735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1940s spritesheet_6
+      name: 1960s spritesheet_9
       rect:
         serializedVersion: 2
-        x: 1527
-        y: 575
-        width: 48
-        height: 176
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e391a39c90ad20480800000000000000
-      internalID: -8934338975184053954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_7
-      rect:
-        serializedVersion: 2
-        x: 1610
-        y: 655
-        width: 112
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: facb74da17417a690800000000000000
-      internalID: -7591076168438661969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_8
-      rect:
-        serializedVersion: 2
-        x: 1610
-        y: 613
-        width: 42
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a20305f4ede16ea0800000000000000
-      internalID: -5881158070750215516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_9
-      rect:
-        serializedVersion: 2
-        x: 1672
-        y: 613
-        width: 42
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b768fd23099bbdc0800000000000000
-      internalID: -3622133236354226255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_10
-      rect:
-        serializedVersion: 2
-        x: 1758
-        y: 542
-        width: 197
-        height: 85
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a79012767fdb09b50800000000000000
-      internalID: 6597982324382566778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_11
-      rect:
-        serializedVersion: 2
-        x: 1281
-        y: 526
-        width: 221
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43f07910719c87620800000000000000
-      internalID: 2772186671294648116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_12
-      rect:
-        serializedVersion: 2
-        x: 1652
-        y: 514
-        width: 76
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b102832454612ed40800000000000000
-      internalID: 5612072572376588315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_13
-      rect:
-        serializedVersion: 2
-        x: 1052
-        y: 379
-        width: 249
-        height: 120
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87695c6421c672070800000000000000
-      internalID: 8081546882092209784
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_14
-      rect:
-        serializedVersion: 2
-        x: 1323
-        y: 363
-        width: 279
-        height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cfb0a382bf409a6d0800000000000000
-      internalID: -2978844201770677252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_15
-      rect:
-        serializedVersion: 2
-        x: 1661
-        y: 342
-        width: 65
-        height: 165
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de618a89a68c75d70800000000000000
-      internalID: 9031907937868060397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_16
-      rect:
-        serializedVersion: 2
-        x: 1758
-        y: 478
-        width: 42
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8d78c62099c69270800000000000000
-      internalID: 8257008587793530255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_17
-      rect:
-        serializedVersion: 2
-        x: 1069
-        y: 91
-        width: 92
-        height: 278
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd2d57a85af9866f0800000000000000
-      internalID: -691127009459973413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1940s spritesheet_18
-      rect:
-        serializedVersion: 2
-        x: 1198
-        y: 277
+        x: 1058
+        y: 312
         width: 207
         height: 81
       alignment: 0
@@ -563,20 +359,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a71b9b4a4dcfbba70800000000000000
-      internalID: 8843940283499000186
+      spriteID: c75de2d7355cc0a70800000000000000
+      internalID: 8794621134720914812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1940s spritesheet_19
+      name: 1960s spritesheet_10
       rect:
         serializedVersion: 2
-        x: 1368
-        y: 8
-        width: 358
-        height: 269
+        x: 1355
+        y: 248
+        width: 61
+        height: 147
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,8 +380,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e79da45dc6b043d40800000000000000
-      internalID: 5563084001772231038
+      spriteID: 51f0cbc184798c3b0800000000000000
+      internalID: -5491973409602793707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1960s spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 9
+        width: 201
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a01509239eb56b90800000000000000
+      internalID: -7249178485925277531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1960s spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 224
+        width: 196
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2e508d0efaca620800000000000000
+      internalID: 2786795649667293932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1960s spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 109
+        width: 77
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827431e3badce0f60800000000000000
+      internalID: 8002559723248502568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1960s spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 180
+        width: 263
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4dca4965a5bf0e0800000000000000
+      internalID: -2235093462151277366
       vertices: []
       indices: 
       edges: []
