@@ -9,7 +9,7 @@ namespace Managers
     {
         public static GameManager Instance;
 
-        public List<QuestProgression> QuestProgressions = new List<QuestProgression>();
+        public readonly HashSet<QuestProgression> QuestProgressions = new HashSet<QuestProgression>();
         
         private void Awake()
         {
@@ -26,6 +26,12 @@ namespace Managers
 
         private void Start()
         {
+            QuestProgressions.Add(QuestProgression.Default);
+        }
+
+        public void Reset()
+        {
+            QuestProgressions.Clear();
             QuestProgressions.Add(QuestProgression.Default);
         }
     }

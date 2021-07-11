@@ -13,6 +13,7 @@ namespace Managers
 
         public void StartButton()
         {
+            GameManager.Instance.Reset();
             SceneLoader.Instance.FadeSceneLoad("Room Early");
         }
 

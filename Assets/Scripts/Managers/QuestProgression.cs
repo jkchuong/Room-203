@@ -1,4 +1,4 @@
-﻿namespace Inventory
+﻿namespace Managers
 {
     public enum QuestProgression
     {
