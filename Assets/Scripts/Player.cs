@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     
     // Components
     private Rigidbody2D rigidbody2d;
+    private Animator animator;
     
     // Cache    
     private float horizontal;
@@ -24,7 +25,7 @@ public class Player : MonoBehaviour
         rigidbody2d = GetComponent<Rigidbody2D>();
 
 
-        // animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         // audioSource = GetComponent<AudioSource>();
     }
     
@@ -67,9 +68,9 @@ public class Player : MonoBehaviour
             lookDirection.Normalize();
         }
         
-        // animator.SetFloat("Look X", lookDirection.x);
-        // animator.SetFloat("Look Y", lookDirection.y);
-        // animator.SetFloat("Speed", move.magnitude);
+        animator.SetFloat("Look X", lookDirection.x);
+        animator.SetFloat("Look Y", lookDirection.y);
+        animator.SetFloat("Speed", move.magnitude);
     }
     
     private void FixedUpdate()

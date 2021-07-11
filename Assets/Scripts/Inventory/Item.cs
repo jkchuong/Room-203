@@ -15,33 +15,40 @@ namespace Inventory
         [SerializeField] private QuestProgression questAfter = QuestProgression.Default;
         
         [SerializeField] private ItemScriptable itemScriptable;
+        [SerializeField] private AudioClip audioClip;
 
+        private AudioSource audioSource;
         private DialogueBox dialogueBox;
         private Collider2D collider2d;
         private ParticleSystem particles;
 
         private void Awake()
         {
-            dialogueBox = FindObjectOfType<DialogueBox>();
-
+            audioSource = GetComponent<AudioSource>();
             particles = GetComponent<ParticleSystem>();
             collider2d = GetComponent<Collider2D>();
         }
 
         private void Start()
         {
+            dialogueBox = FindObjectOfType<DialogueBox>();
+
             if (InventoryUI.Instance.ContainsItem(itemScriptable))
             {
                 Destroy(gameObject);
             }
 
-            gameObject.SetActive(GameManager.Instance.QuestProgressions.Contains(questBefore));
+            if (questBefore != QuestProgression.Default)
+            {
+                gameObject.SetActive(GameManager.Instance.QuestProgressions.Contains(questBefore));
+            }
         }
 
         public void Interact()
         {
             InventoryUI.Instance.AddItem(itemScriptable);
             GameManager.Instance.QuestProgressions.Add(questAfter);
+            audioSource.PlayOneShot(audioClip);
             
             collider2d.enabled = false;
             particles.Stop();

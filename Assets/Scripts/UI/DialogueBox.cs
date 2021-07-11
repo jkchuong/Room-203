@@ -7,10 +7,15 @@ namespace UI
 {
     public class DialogueBox : MonoBehaviour
     {
+        [Header("Dialogue")]
         [SerializeField] private TextMeshProUGUI dialogueBox;
         [SerializeField] private GameObject dialogueBoxBackground;
+        
+        [Header("Pick Up Text")]
+        [SerializeField] private TextMeshProUGUI textMeshPro;
+        [SerializeField] private GameObject pickUpBackground;
+        
         [SerializeField] private Color32 textColor;
-        private TextMeshProUGUI textMeshPro;
 
         private void Awake()
         {
@@ -23,6 +28,7 @@ namespace UI
             ChangeTextAlpha(0, textMeshPro);
             
             dialogueBoxBackground.SetActive(false);
+            pickUpBackground.SetActive(false);
         }
 
         private void ChangeTextAlpha(byte alpha, TextMeshProUGUI box)
@@ -35,10 +41,12 @@ namespace UI
         {
             textMeshPro.text = "Obtained " + itemScriptable.title;
 
+            pickUpBackground.SetActive(true);
             ChangeTextAlpha(255, textMeshPro);
             
             yield return new WaitForSeconds(3f);
 
+            pickUpBackground.SetActive(false);
             ChangeTextAlpha(0, textMeshPro);
         }
 

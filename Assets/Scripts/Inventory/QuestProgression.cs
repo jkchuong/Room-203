@@ -13,6 +13,7 @@
         EnteredSecondRoom1,
         FoundLightbulb,
         EnteredSecondRoom2,
+        WalkedOverCarpet,
         Plate2,
 
         // Plate 3
@@ -21,13 +22,16 @@
         MovedLamp,
         FoundCoin,
         WindowEvent2,
+        FoundNewspaper,
         Plate3,
 
         // Plate 4
         FoundLocket,
+        FoundMagazine,
         FoundDress,
-        
+        Plate4,
         
         // Key
+        Key
     }
 }

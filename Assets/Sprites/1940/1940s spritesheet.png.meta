@@ -1,0 +1,608 @@
+fileFormatVersion: 2
+guid: 8739b8be62041654e87f711590e71cda
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2564579700514296341
+    second: 1940s spritesheet_0
+  - first:
+      213: -6945237149334709591
+    second: 1940s spritesheet_1
+  - first:
+      213: -1187747231073160508
+    second: 1940s spritesheet_2
+  - first:
+      213: 5920072781143828454
+    second: 1940s spritesheet_3
+  - first:
+      213: 4578076077440575199
+    second: 1940s spritesheet_4
+  - first:
+      213: -7211065003001491764
+    second: 1940s spritesheet_5
+  - first:
+      213: -8934338975184053954
+    second: 1940s spritesheet_6
+  - first:
+      213: -7591076168438661969
+    second: 1940s spritesheet_7
+  - first:
+      213: -5881158070750215516
+    second: 1940s spritesheet_8
+  - first:
+      213: -3622133236354226255
+    second: 1940s spritesheet_9
+  - first:
+      213: 6597982324382566778
+    second: 1940s spritesheet_10
+  - first:
+      213: 2772186671294648116
+    second: 1940s spritesheet_11
+  - first:
+      213: 5612072572376588315
+    second: 1940s spritesheet_12
+  - first:
+      213: 8081546882092209784
+    second: 1940s spritesheet_13
+  - first:
+      213: -2978844201770677252
+    second: 1940s spritesheet_14
+  - first:
+      213: 9031907937868060397
+    second: 1940s spritesheet_15
+  - first:
+      213: 8257008587793530255
+    second: 1940s spritesheet_16
+  - first:
+      213: -691127009459973413
+    second: 1940s spritesheet_17
+  - first:
+      213: 8843940283499000186
+    second: 1940s spritesheet_18
+  - first:
+      213: 5563084001772231038
+    second: 1940s spritesheet_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 75
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1940s spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 16
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512155f56a7379320800000000000000
+      internalID: 2564579700514296341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 542
+        width: 186
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aade013c9f8d9f90800000000000000
+      internalID: -6945237149334709591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 603
+        width: 186
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c23ee0bf26448fe0800000000000000
+      internalID: -1187747231073160508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 765
+        width: 263
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7698c14d2582250800000000000000
+      internalID: 5920072781143828454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 639
+        width: 213
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd62f8ecfe7988f30800000000000000
+      internalID: 4578076077440575199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 684
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce48dbe5962deb90800000000000000
+      internalID: -7211065003001491764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 575
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e391a39c90ad20480800000000000000
+      internalID: -8934338975184053954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 655
+        width: 112
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facb74da17417a690800000000000000
+      internalID: -7591076168438661969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 613
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a20305f4ede16ea0800000000000000
+      internalID: -5881158070750215516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 613
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b768fd23099bbdc0800000000000000
+      internalID: -3622133236354226255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 542
+        width: 197
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79012767fdb09b50800000000000000
+      internalID: 6597982324382566778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 526
+        width: 221
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f07910719c87620800000000000000
+      internalID: 2772186671294648116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 514
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b102832454612ed40800000000000000
+      internalID: 5612072572376588315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 379
+        width: 249
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87695c6421c672070800000000000000
+      internalID: 8081546882092209784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 363
+        width: 279
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb0a382bf409a6d0800000000000000
+      internalID: -2978844201770677252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 342
+        width: 65
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de618a89a68c75d70800000000000000
+      internalID: 9031907937868060397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 478
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d78c62099c69270800000000000000
+      internalID: 8257008587793530255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 91
+        width: 92
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2d57a85af9866f0800000000000000
+      internalID: -691127009459973413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 277
+        width: 207
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71b9b4a4dcfbba70800000000000000
+      internalID: 8843940283499000186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1940s spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 8
+        width: 358
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79da45dc6b043d40800000000000000
+      internalID: 5563084001772231038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,4 +1,5 @@
-﻿using UI;
+﻿using Inventory;
+using UI;
 using UnityEngine;
 
 namespace Interactions

@@ -1,4 +1,5 @@
-﻿using Inventory;
+﻿using System;
+using Inventory;
 using Managers;
 using UI;
 using UnityEngine;
@@ -25,6 +26,11 @@ namespace Interactions
         [SerializeField] private string dialogueAfter;
 
         [SerializeField] private float duration = 5f;
+
+        [Header("Before and After interacting")]
+        [SerializeField] private SpriteRenderer spriteRenderer;
+        [SerializeField] private Sprite beforeSprite;
+        [SerializeField] private Sprite afterSprite;
         
         private DialogueBox dialogueBox;
         
@@ -33,30 +39,54 @@ namespace Interactions
 
             dialogueBox = FindObjectOfType<DialogueBox>();
             
-            if (interactImmediate)
+            if (beforeSprite)
+            {
+                spriteRenderer.sprite = beforeSprite;
+            }
+
+            if (itemToShow)
+            {
+                itemToShow.SetActive(false);
+            }
+        }
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.CompareTag("Player") && interactImmediate)
             {
                 Interact();
             }
-            
-            if (!itemToShow) return;
-            itemToShow.SetActive(false);
         }
 
         public void Interact()
         {
+            // if this quest has already been done
             if (GameManager.Instance.QuestProgressions.Contains(questAfter))
             {
                 if (destroyAfterUse)
                 {
                     Destroy(gameObject);
                 }
-                
-                StartCoroutine(dialogueBox.ShowDialogue(dialogueAfter, duration));
+
+                if (!string.IsNullOrEmpty(dialogueAfter))
+                {
+                    StartCoroutine(dialogueBox.ShowDialogue(dialogueAfter, duration));
+                }
             }
+            // if quest has the correct prerequisites
             else if (GameManager.Instance.QuestProgressions.Contains(questBefore))
             {
-                StartCoroutine(dialogueBox.ShowDialogue(dialogueBefore, duration));
+                if (!string.IsNullOrEmpty(dialogueBefore))
+                {
+                    StartCoroutine(dialogueBox.ShowDialogue(dialogueBefore, duration));
+                }
+                
                 GameManager.Instance.QuestProgressions.Add(questAfter);
+
+                if (afterSprite)
+                {
+                    spriteRenderer.sprite = afterSprite;
+                }
                 
                 if (!itemToShow) return;
                 itemToShow.SetActive(true);
