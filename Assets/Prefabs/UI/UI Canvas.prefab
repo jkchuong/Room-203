@@ -67,8 +67,9 @@ MonoBehaviour:
   m_text: Something has happened here. This is a lot of words to test  out what this
     dialogue box loooks like. :)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: abdf15ee7d419e0458be59e36776465c, type: 2}
+  m_sharedMaterial: {fileID: -615905514390270808, guid: abdf15ee7d419e0458be59e36776465c,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -168,7 +169,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 243.9, y: -43}
+  m_AnchoredPosition: {x: 243, y: -53}
   m_SizeDelta: {x: 445.38757, y: 64.52521}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5636396003973252823
@@ -243,7 +244,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -306.25}
+  m_AnchoredPosition: {x: 0, y: -255}
   m_SizeDelta: {x: 0, y: -687.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3881027256029358750
@@ -420,7 +421,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 243.89621, y: -43.000366}
+  m_AnchoredPosition: {x: 242.99622, y: -53.000366}
   m_SizeDelta: {x: 409.6637, y: 44.72986}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7724133617570672872
@@ -452,8 +453,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Obtained an item
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: abdf15ee7d419e0458be59e36776465c, type: 2}
+  m_sharedMaterial: {fileID: -615905514390270808, guid: abdf15ee7d419e0458be59e36776465c,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -574,7 +576,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 399, y: 334}
+  m_AnchoredPosition: {x: 399, y: 331}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7724133617580240632
@@ -737,8 +739,9 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: abdf15ee7d419e0458be59e36776465c, type: 2}
+  m_sharedMaterial: {fileID: -615905514390270808, guid: abdf15ee7d419e0458be59e36776465c,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

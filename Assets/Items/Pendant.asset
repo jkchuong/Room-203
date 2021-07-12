@@ -16,4 +16,4 @@ MonoBehaviour:
   timeEra: 0
   display: {fileID: 21300000, guid: 4fe8c5153c88b344590344ab604518ec, type: 3}
   title: Pendant
-  description: A beautiful pendant with an equally beautifal lady inside.
+  description: There's a photograph of a woman inside. Her name appears to be Marie.

@@ -16,5 +16,5 @@ MonoBehaviour:
   timeEra: 0
   display: {fileID: 21300000, guid: 40e2226e97aeab643a965f03133425ed, type: 3}
   title: Letter
-  description: An envelope containing a letter. The letter inside is about a complaint
-    of a resident of room 304 breaking a hole in the floor due to a lamp.
+  description: It's a letter discussing the hole in the floor potentially caused
+    by the previous resident. Something might have dropped on there.

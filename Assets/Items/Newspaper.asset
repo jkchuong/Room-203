@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f2ccde267b00e14aa7abba87125ff56, type: 3}
   m_Name: Newspaper
   m_EditorClassIdentifier: 
+  type: 0
+  timeEra: 0
   display: {fileID: 21300000, guid: ef3de2777cb922f4d9ae12d5fb8b2d2d, type: 3}
   title: Newspaper
-  description: A wrinkled newspaper about some war that happened in 1945.
+  description: So that's why they were celebrating. Published in 1945.

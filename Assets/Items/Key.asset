@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f2ccde267b00e14aa7abba87125ff56, type: 3}
   m_Name: Key
   m_EditorClassIdentifier: 
+  type: 0
+  timeEra: 0
   display: {fileID: 21300000, guid: 38c7352a58bfd5d438a7c92b1c19d62f, type: 3}
   title: Old Key
-  description: This is an old key. You notice a royal emblem engraved onto the side
-    It's rusty and flakey, but underneath the damage you can see a mild sheen of
-    gold.
+  description: A little rusted.

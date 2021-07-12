@@ -33,7 +33,6 @@ namespace Managers
             ActivateCanvas(creditsCanvas);
             DeactivateCanvas(mainCanvas);
             DeactivateCanvas(controlsCanvas);
-            
         }
 
         public void BackButton()

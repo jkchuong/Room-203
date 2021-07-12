@@ -1,4 +1,5 @@
-﻿using Managers;
+﻿using System.Collections;
+using Managers;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +9,7 @@ namespace UI
     {
         [SerializeField] private AudioClip lockedDoorClip;
         [SerializeField] private AudioClip openedDoorClip;
+        [SerializeField] private AudioClip birdsClip;
 
         private AudioSource audioSource;
         private Button btn;
@@ -27,13 +29,22 @@ namespace UI
         {
             if (GameManager.Instance.QuestProgressions.Contains(QuestProgression.Key))
             {
-                audioSource.PlayOneShot(openedDoorClip);
-                SceneLoader.Instance.FadeSceneLoad("End");
+                StartCoroutine(PlayEscapeAudio());
+                SceneLoader.Instance.FadeSceneLoad("Menu");
             }
             else
             {
                 audioSource.PlayOneShot(lockedDoorClip);
             }
+        }
+
+        private IEnumerator PlayEscapeAudio()
+        {
+            audioSource.PlayOneShot(openedDoorClip);
+
+            yield return new WaitForSeconds(1f);
+            
+            audioSource.PlayOneShot(birdsClip);
         }
     }
 }
