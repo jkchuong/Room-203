@@ -46,8 +46,6 @@ namespace UI
                     StartCoroutine(AudioManager.Instance.PlayAudio());
                 }
             }
-
-            FindObjectOfType<Player>().isPaused = false;
         }
     }
 }

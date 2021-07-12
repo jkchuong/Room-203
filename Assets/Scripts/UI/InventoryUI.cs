@@ -15,7 +15,7 @@ namespace UI
         private readonly List<TimeEra> doorPlates = new List<TimeEra>();
         private readonly List<ItemScriptable> itemList = new List<ItemScriptable>();
         
-        private bool isShown;
+        public bool isShown;
 
         public static InventoryUI Instance;
         
@@ -42,7 +42,7 @@ namespace UI
             DoorUI.Instance.RefreshDoorPanels();
         }
         
-        public void ShowUI(bool show)
+        private void ShowUI(bool show)
         {
             if (show)
             {

@@ -6,6 +6,10 @@ namespace Managers
 {
     public class ButtonManager : MonoBehaviour
     {
+        [SerializeField] private CanvasGroup mainCanvas;
+        [SerializeField] private CanvasGroup controlsCanvas;
+        [SerializeField] private CanvasGroup creditsCanvas;
+        
         public void OpenInventory()
         {
             InventoryUI.Instance.SetUI();
@@ -19,17 +23,38 @@ namespace Managers
 
         public void ControlsButton()
         {
-            Debug.LogError("Controls not set up");
+            ActivateCanvas(controlsCanvas);
+            DeactivateCanvas(mainCanvas);
+            DeactivateCanvas(creditsCanvas);        
         }
 
         public void CreditsButton()
         {
-            Debug.LogError("Credits not set up");
+            ActivateCanvas(creditsCanvas);
+            DeactivateCanvas(mainCanvas);
+            DeactivateCanvas(controlsCanvas);
+            
         }
 
-        public void CloseDoor()
+        public void BackButton()
         {
-            DoorUI.Instance.SetUI();
+            ActivateCanvas(mainCanvas);
+            DeactivateCanvas(creditsCanvas);
+            DeactivateCanvas(controlsCanvas);
+        }
+
+        private static void ActivateCanvas(CanvasGroup canvas)
+        {
+            canvas.alpha = 1;
+            canvas.interactable = true;
+            canvas.blocksRaycasts = true;
+        }
+
+        private static void DeactivateCanvas(CanvasGroup canvas)
+        {
+            canvas.alpha = 0;
+            canvas.interactable = false;
+            canvas.blocksRaycasts = false;
         }
     }
 }

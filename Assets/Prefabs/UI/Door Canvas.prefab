@@ -204,7 +204,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1013274031420134823}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 882395a5e6794d8291c496b7eb6bdd9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f0e4f34d2ea30e4781bb54f2857050c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   lockedDoorClip: {fileID: 8300000, guid: b7561a23a938ee140907e83f3b68c678, type: 3}
@@ -1199,6 +1199,7 @@ GameObject:
   - component: {fileID: 7955902131343170192}
   - component: {fileID: 7592199052902670025}
   - component: {fileID: 1669687457}
+  - component: {fileID: 3593376022335795213}
   m_Layer: 5
   m_Name: Door Canvas
   m_TagString: Untagged
@@ -1310,7 +1311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9811321, g: 0.854557, b: 0.69882524, a: 1}
+  m_Color: {r: 0.7169812, g: 0, b: 0.08739391, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1350,6 +1351,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f49e508a7411114db04a98dfe7a1ab4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wallpaper: {fileID: 3593376022335795213}
+  isShown: 0
+--- !u!114 &3593376022335795213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3006478989917662851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e081ee94d87da24380d8e9bd8439e12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallpaper1: {fileID: 0}
+  wallpaper2: {fileID: 0}
+  wallpaper3: {fileID: 0}
+  wallpaper4: {fileID: 0}
+  wallpaper5: {fileID: 0}
 --- !u!1 &3006478989951306699
 GameObject:
   m_ObjectHideFlags: 0

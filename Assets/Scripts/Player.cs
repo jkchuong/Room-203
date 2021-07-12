@@ -25,8 +25,7 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
-
-
+        
         animator = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
     }
@@ -36,7 +35,14 @@ public class Player : MonoBehaviour
         Interact();
         OpenInventory();
 
-        if (isPaused) return;
+        // pause whenever either inventory or door is open
+        isPaused = (InventoryUI.Instance.isShown || DoorUI.Instance.isShown);
+
+        if (isPaused)
+        {
+            animator.SetFloat("Speed", 0f);
+            return;
+        }
         Move();
     }
 
@@ -77,6 +83,12 @@ public class Player : MonoBehaviour
     
     private void FixedUpdate()
     {
+        if (isPaused)
+        {
+            rigidbody2d.velocity = Vector2.zero;
+            return;
+        }
+        
         Vector2 position = rigidbody2d.position;
         position.x += moveSpeed * horizontal * Time.deltaTime;
         position.y += moveSpeed * vertical * Time.deltaTime;
@@ -99,6 +111,7 @@ public class Player : MonoBehaviour
         }
     }
 
+    // For use in animation
     public void PlayFootsteps()
     {
         AudioClip footstep = footstepsClips[Random.Range(0, footstepsClips.Length - 1)];

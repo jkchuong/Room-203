@@ -918,12 +918,12 @@ PrefabInstance:
     - target: {fileID: 647569313952370639, guid: 0575cfaae48e56e47ab554aed99961e6,
         type: 3}
       propertyPath: questAfter
-      value: 23
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 647569313952370639, guid: 0575cfaae48e56e47ab554aed99961e6,
         type: 3}
       propertyPath: questBefore
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 647569313952370639, guid: 0575cfaae48e56e47ab554aed99961e6,
         type: 3}
@@ -989,7 +989,7 @@ PrefabInstance:
     - target: {fileID: 9144718339024574233, guid: 0575cfaae48e56e47ab554aed99961e6,
         type: 3}
       propertyPath: m_Name
-      value: Movei Ticket
+      value: Movie Ticket
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0575cfaae48e56e47ab554aed99961e6, type: 3}
@@ -2309,7 +2309,7 @@ PrefabInstance:
     - target: {fileID: 647569313952370639, guid: 0575cfaae48e56e47ab554aed99961e6,
         type: 3}
       propertyPath: questAfter
-      value: 19
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 647569313952370639, guid: 0575cfaae48e56e47ab554aed99961e6,
         type: 3}

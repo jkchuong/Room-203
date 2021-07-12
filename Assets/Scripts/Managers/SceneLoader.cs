@@ -42,8 +42,16 @@ namespace Managers
             yield return SceneManager.LoadSceneAsync(sceneName);
 
             audioSource.PlayOneShot(doorClip);
-            InventoryUI.Instance.ShowUI(false);
-            DoorUI.Instance.ShowUI(false);
+
+            if (InventoryUI.Instance.isShown)
+            {
+                InventoryUI.Instance.SetUI();
+            }
+
+            if (DoorUI.Instance.isShown)
+            {
+                DoorUI.Instance.SetUI();
+            }
             
             yield return new WaitForSeconds(fadeWaitTime);
             

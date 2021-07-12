@@ -1,12 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace UI
 {
     public class DoorUI : MonoBehaviour
     {
-        private bool isShown;
+        [SerializeField] private DoorWallpaper wallpaper;
+        
+        public bool isShown;
         private CanvasGroup canvasGroup;
         private List<DoorPanel> doorPanels = new List<DoorPanel>();
 
@@ -33,13 +36,14 @@ namespace UI
             RefreshDoorPanels();
         }
 
-        public void ShowUI(bool show)
+        private void ShowUI(bool show)
         {
             if (show)
             {
                 canvasGroup.alpha = 1;
                 canvasGroup.interactable = true;
                 canvasGroup.blocksRaycasts = true;
+                wallpaper.ChangeWallpaper(SceneManager.GetActiveScene().name);
             }
             else
             {

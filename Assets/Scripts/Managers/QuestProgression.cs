@@ -33,6 +33,7 @@
         Plate4,
         
         // Key
+        EnteredRoom5,
         FoundRecord,
         PlayedRecord,
         FoundPhone,

@@ -25,9 +25,15 @@ namespace UI
 
         private void UnlockDoor()
         {
-            audioSource.PlayOneShot(GameManager.Instance.QuestProgressions.Contains(QuestProgression.Key)
-                ? openedDoorClip
-                : lockedDoorClip);
+            if (GameManager.Instance.QuestProgressions.Contains(QuestProgression.Key))
+            {
+                audioSource.PlayOneShot(openedDoorClip);
+                SceneLoader.Instance.FadeSceneLoad("End");
+            }
+            else
+            {
+                audioSource.PlayOneShot(lockedDoorClip);
+            }
         }
     }
 }
